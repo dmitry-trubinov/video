@@ -1,0 +1,23 @@
+[{
+  "name": "video-sevice-dev",
+  "script": "./src/app.js",
+  "error_file": "./logs/error.log",
+  "out_file": "./logs/out.log",
+  "log_date_format" : "YYYY-MM-DD HH:mm Z",
+  "watch": true,
+  "ignore_watch": [
+    "[\\/\\\\]\\./",
+    "node_modules",
+    ".idea",
+    ".git",
+    "logs",
+    "test"
+  ],
+  "env": {
+    "DEBUG": "*",
+    "NODE_ENV": "development",
+    "HOST": "127.0.0.1",
+    "PORT": 8001
+  }
+}
+]

@@ -1,0 +1,3 @@
+{
+  "ignore": ["__test__/*", "logs/*", "files/*"]
+}

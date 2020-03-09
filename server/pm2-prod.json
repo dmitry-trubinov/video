@@ -1,0 +1,23 @@
+[{
+  "name": "video-service",
+  "script": "./src/app.js",
+  "error_file": "/dev/null",
+  "out_file": "/dev/null",
+  "log_date_format" : "YYYY-MM-DD HH:mm Z",
+  "watch": false,
+  "ignore_watch": [
+    "[\\/\\\\]\\./",
+    "node_modules",
+    ".idea",
+    ".git",
+    "logs",
+    "test"
+  ],
+  "env": {
+    "DEBUG": "",
+    "NODE_ENV": "production",
+    "HOST": "127.0.0.1",
+    "PORT": 8001
+  }
+}
+]

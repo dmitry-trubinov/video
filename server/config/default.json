@@ -1,0 +1,9 @@
+{
+  "files": { 
+    "folder": "files",
+    "max_size_bites": "200000000",
+    "per_page_default": "10",
+    "per_page_max": "30",
+    "field_name": "video"
+  }
+}
